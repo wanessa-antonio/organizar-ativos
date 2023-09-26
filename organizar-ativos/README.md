@@ -1,18 +1,17 @@
-## Getting Started
+Santander Bootcamp 2023 - Backend Java - Desafios 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Desafio de Código = Organizando seus ativos.
 
-## Folder Structure
+Codifique o seguinte cenário.
 
-The workspace contains two folders by default, where:
+Após uma análise cuidadosa realizada pela equipe de desenvolvimento de uma empresa bancaria, foi identificado a necessidade de uma nova funcionalidade para otimizar os processos e melhorias da experiência dos usuários. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Agora, sua tarefa é implementar uma solução que organize em ordem alfabética uma lista de ativos que será informada pelos usuários. 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Os ativos são representados por strings que representam seus tipos, como por exemplo: Reservas de liquidez, Ativos intangiveis e dentre outros.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Entrada
+A primeira entrada consiste em um número inteiro que representa a  quantidade de ativos que o usuário possui. Em seguida, o usuário deverá  informar, em linhas separadas, os tipos (strings) dos respectivos ativos.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Saída
+Seu programa deve exibir a lista de Ativos organizada em ordem alfabética. Cada ativo deve ser apresentado em uma linha separada.
